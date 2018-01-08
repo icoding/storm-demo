@@ -13,11 +13,7 @@ import java.io.FileReader;
 import java.util.Map;
 import java.util.Random;
 
-/**
- * WordLineSpout，从文件逐行读取字符串，并分发给bolt处理。
- * <p/>
- * spout，我译为喷流、水柱；spout是topology的消息源头，它持续不断地生产消息。在storm中，spout生产的消息被抽象为tuple。
- */
+
 public class HelloSpot extends BaseRichSpout {
 
     protected Logger log = LoggerFactory.getLogger(this.getClass());
